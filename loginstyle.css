@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 10px;
+  font-family: 'Raleway', sans-serif;
+}
+body{
+  background-color: #1ABC9C;
+}
+.flex{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#loginpage{
+  background-color: #232B38;
+  width: 30vw;
+  margin: 0 auto; 
+  border: none;
+  border-radius: 1rem;
+}
+.container{
+  padding: 5rem 0;
+}
+.brandimg{
+  width: 7rem;
+  margin-bottom: 1rem;
+}
+.login{
+  color: #EEBF00;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.form-decorate{
+  border: none;
+  width: 20vw;
+  padding: 1rem 2rem;
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;
+}
+.forgot-pass a{
+  text-decoration: none;
+  color: crimson;
+}
+.forgot-pass{
+  margin-bottom: 2rem;
+}
+.login-btn{
+  padding: 0.7rem 2rem;
+  margin-right: 1rem;
+  border: none;
+  border-radius: 2rem;
+  background-color: #3DDF5E;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.login-btn a{
+  text-decoration: none;
+  color: #232B38;
+}
+.other-login{
+  color: white;
+}
+.h4-txt{
+  letter-spacing: 0.15rem;
+  margin-bottom: 1rem;
+}
+.google{
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #EEBF00;
+}
+.facebook{
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #217BD6;
+}
+.other-login-btn{
+  margin-bottom: 4rem;
+}
+.footer-text a{
+  text-decoration: none;
+  color: #3248E9;
+  font-size: 1.5rem;
+}
+.form-icon-username{
+  margin-right: 1rem;
+  width: 4rem;
+}
+.form-icon-lock{
+  margin-right: 1rem;
+  width: 4rem;
+}
